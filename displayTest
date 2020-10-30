@@ -1,0 +1,11 @@
+
+from pyvirtualdisplay import Display
+from selenium import webdriver
+display = Display(visible=0, size=(1024,786))
+display.start()
+opts = webdriver.ChromeOptions()
+opts.add_argument(--no-sandbox)
+opts.add_argument(--disable-setuid-sandbox)
+browser.get(https://gist.github.com/)
+display.stop()
+
